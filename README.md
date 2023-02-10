@@ -36,7 +36,7 @@ npm run docs
 ```
 `typedoc` will generate complete HTML document folder in root `docs`
 
-App is is already deployed in Vercel here https://map-gl-2.vercel.app/
+App is is already deployed in Vercel here https://map-gl.vercel.app/
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
