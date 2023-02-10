@@ -1,0 +1,14 @@
+{
+  "extends": ["next/core-web-vitals", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "tsconfigRootDir": "./",
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "tsdoc/syntax": "warn"
+  },
+  "plugins": ["@typescript-eslint/eslint-plugin", "eslint-plugin-tsdoc"]
+}

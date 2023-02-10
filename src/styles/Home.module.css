@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.sliderLabel {
+  font-size: 12px;
+  color: #1876d2;
+}
+
+.label {
+  font-size: 14px;
+  color: #1876d2;
+}
+
+.displayValue {
+  font-size: 14px;
+  color: #888888;
+}
+.displayUnit {
+  font-size: 12px;
+  color: #888888;
+}
+
+.value {
+  display: inline-block;
+  background: #aeccef;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+}

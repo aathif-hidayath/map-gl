@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "typedocOptions": {
+    "entryPoints": [
+      "src/pages/index.tsx",
+      "src/hooks/usePlot.ts",
+      "src/@types/index.ts",
+      "src/helper/utils.ts",
+      "src/components/ControlPanel.tsx",
+      "src/components/Display.tsx",
+      "src/components/SlideController.tsx",
+      "src/components/DisplayPanel.tsx",
+      "src/components/Uploader.tsx"
+    ],
+    "out": "docs"
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "types.d.ts"],
+  "exclude": ["node_modules"]
+}
